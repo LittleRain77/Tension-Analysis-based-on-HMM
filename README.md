@@ -1,9 +1,11 @@
 # Tension-Analysis-based-on-HMM
-##Natural Language Processing
-###Features:
+## Natural Language Processing
+### Features:
+
 For each response of the interviewer, we extract Negtive emtion, hedge words, booster words, marker and question as features. The code for these feature extraction is reference from https://github.com/jumayel06/Tension-Analysis.git.
 
-###How to use this code:
+### How to use this code:
+
 The code is very simple and straightforward. hmm_tension(flat_sentence_corpus) function will return a dictionary of tension probability and not tension probability for each response. 
 
 
